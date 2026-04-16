@@ -93,7 +93,6 @@ streamlit run app.py
 
 | Model     | Performance                            |
 | --------- | -------------------------------------- |
-| API Model | Fast, scalable, moderate accuracy      |
 | RAG Model | High accuracy, offline, resource-heavy |
 
 ---
@@ -102,7 +101,6 @@ streamlit run app.py
 
 * RAG model requires high-end hardware (GPU recommended)
 * Cannot deploy large models on Vercel/Render
-* API model depends on internet and rate limits
 * Not a substitute for professional legal advice
 
 ---
