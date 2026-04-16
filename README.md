@@ -1,6 +1,6 @@
-# ⚖️ NyayaSathi – AI Legal Chatbot
+# ⚖️ NomoSys – AI Legal Chatbot
 
-NyayaSathi is an AI-powered legal assistant designed to simplify Indian law and make legal knowledge accessible to everyone. It allows users to ask legal questions in plain language and receive clear, structured, and reference-backed answers.
+NomoSys is an AI-powered legal assistant designed to simplify Indian law and make legal knowledge accessible to everyone. It allows users to ask legal questions in plain language and receive clear, structured, and reference-backed answers.
 
 The project demonstrates two powerful approaches:
 
@@ -166,7 +166,7 @@ streamlit run app.py
 
 ## ⚠️ Disclaimer
 
-NyayaSathi provides **legal information only**, not legal advice.
+NomoSys provides **legal information only**, not legal advice.
 For official matters, please consult a qualified legal professional.
 
 ---

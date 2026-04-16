@@ -2,7 +2,7 @@ import streamlit as st
 from chatbot_backend import build_legal_chain
 
 # Initialize chatbot
-st.title("⚖️ NyayaSathi – AI Legal Chatbot ")
+st.title("⚖️ NomoSys – AI Legal Chatbot ")
 
 @st.cache_resource
 def load_chain():
@@ -18,7 +18,7 @@ query = st.text_input("Ask a legal question:")
 if query:
     result = qa_chain.invoke({"question": query, "chat_history": st.session_state.history})
     st.session_state.history.append((query, result["answer"]))
-    st.write("**NyayaSathi:**", result["answer"])
+    st.write("**NomoSys:**", result["answer"])
 
 # Display chat history
 if st.session_state.history:
