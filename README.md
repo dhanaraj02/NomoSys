@@ -4,7 +4,7 @@ NomoSys is an AI-powered legal assistant designed to simplify Indian law and mak
 
 The project demonstrates two powerful approaches:
 
-* 🌐 **API-Based Model (MERN + HuggingFace)**
+
 * 🧠 **RAG-Based Local LLM (Ollama + DeepSeek + FAISS)**
 
 ---
@@ -14,7 +14,6 @@ The project demonstrates two powerful approaches:
 * 🗣️ Natural language legal query support
 * 📚 Covers Indian Constitution, IPC, CrPC, Company Act, etc.
 * 🔍 Retrieval-Augmented Generation (RAG) for accurate answers
-* 🌐 Cloud-based chatbot (globally accessible)
 * 💻 Offline chatbot (no internet required)
 * 📄 Document-based legal query support
 * 📊 Explainable responses with legal references
@@ -27,7 +26,7 @@ The project demonstrates two powerful approaches:
 
 ---
 
-### 2️⃣ RAG-Based Approach (Ollama + DeepSeek + FAISS)
+###  RAG-Based Approach (Ollama + DeepSeek + FAISS)
 
 User → Streamlit UI → Embedding → FAISS Retrieval → DeepSeek LLM → Response
 
@@ -53,21 +52,13 @@ User → Streamlit UI → Embedding → FAISS Retrieval → DeepSeek LLM → Res
 
 ## ⚙️ Installation & Setup
 
-### 🔹 API-Based Version
+
 
 ```bash
 # Clone repo
 git clone https://github.com/your-username/nyayasathi.git
 
-# Backend
-cd backend
-npm install
-npm start
 
-# Frontend
-cd frontend
-npm install
-npm start
 ```
 
 > Add your HuggingFace API key in `.env`
@@ -135,11 +126,7 @@ streamlit run app.py
 
 ---
 
-## 👨‍💻 Contributors
 
-* Jayaraj Belamagi
-
----
 
 ## ⭐ Acknowledgements
 
