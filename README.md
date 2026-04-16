@@ -23,13 +23,7 @@ The project demonstrates two powerful approaches:
 
 ## 🏗️ Architecture
 
-### 1️⃣ API-Based Approach (MERN + HuggingFace)
 
-User → React UI → Node/Express Backend → HuggingFace API → Response
-
-* Fast and scalable
-* Deployed using **Vercel (Frontend)** + **Render (Backend)**
-* Depends on internet connectivity
 
 ---
 
@@ -45,14 +39,7 @@ User → Streamlit UI → Embedding → FAISS Retrieval → DeepSeek LLM → Res
 
 ## 🛠️ Tech Stack
 
-### 🌐 API Version
 
-* MongoDB
-* Express.js
-* React.js
-* Node.js
-* HuggingFace Inference API
-* Vercel + Render
 
 ### 🧠 RAG Version
 
